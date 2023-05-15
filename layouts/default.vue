@@ -21,5 +21,10 @@
     .router-link-exacct-active{
         color:beige
     }
+    .container{
+        color: #1b1e23;
+        font-weight: bold;
+        font-size: larger;
+    }
 
 </style>
