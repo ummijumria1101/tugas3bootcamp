@@ -1,8 +1,8 @@
 <template>
     <div>
         <slot>
-            <header class="shadow-sm bg-gray-400">
-                <nav class="container mx-auto p-4 flex justify">
+            <header class="shadow-sm bg-txtprimary">
+                <nav class="container mx-auto p-4 flex justify bg-primarycolor">
                     <ul class="flex gap-4">
                         <li><NuxtLink to="/">Home</NuxtLink></li>
                         <li><NuxtLink to="about">About</NuxtLink></li>
