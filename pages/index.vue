@@ -1,4 +1,7 @@
 <template>
+    <div class="bg-gray-400">
+        <NuxtLayout :name="default"></NuxtLayout>
+    </div>
     <div class="bg-gray-400">      
         <h1 class="text-center text-4xl font-semibold text-white">Tutorial membuat membuat antena mikrostrip</h1>
         <img class="image mx-auto h-60 flex item-center" src = "https://i.postimg.cc/G28cdcB5/Suppression-of-Cross-Polarization-of-the-Microstrip-Integrated-Balun-Fed-Printed-Dipole-Antenna.jpg">
@@ -18,9 +21,10 @@
           <li>Mengukur antena yang sudah di fabrikasi dengan Vector Network Analyzer (VNA), pastikan spesifikasi antena sudah sesuai</li>
           <li>Antena telah jadi</li>   
           </ul>
-
             
         </div>
+        
+
     
 </template>
 

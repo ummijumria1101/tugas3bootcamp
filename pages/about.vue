@@ -1,4 +1,7 @@
 <template class="bg-gray-400">
+    <div class="bg-gray-400">
+        <NuxtLayout :name="default"></NuxtLayout>
+    </div>
     <div class="card bg-gray-400 m-8">      
         <h2 class="text-center text-4xl font-semibold text-white">Untuk tutorial lebih lanjut bisa dilihat pada link youtube berikut</h2>
             

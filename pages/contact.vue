@@ -1,4 +1,7 @@
 <template class="">
+    <div class="bg-gray-400">
+        <NuxtLayout :name="default"></NuxtLayout>
+    </div>
     <div class="card bg-gray-400">      
         <h3 class="mx-10">Saya ummi jumria seorang mahasiswa S1 Teknik Telekomunikasi di Universitas Telkom. Untuk kontak lebih jauh bisa pada:</h3>
         <ul class="mx-10">
