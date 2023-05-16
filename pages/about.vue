@@ -1,7 +1,4 @@
 <template class="">
-    <div class="">
-        <NuxtLayout :name="default"></NuxtLayout>
-    </div>
     <div class="bg-txtprimary">     
         <!-- <h2 class="text-4xl text-center font-semibold">Tentang Website</h2>  -->
         <div class="wrapper justify-center inline-block align-middle">
@@ -20,7 +17,10 @@
     
 </template>
 
-<script setup>
+<script>
+    export default {
+    layout: 'default',
+}
 
 </script>
 
@@ -72,29 +72,5 @@ body{
   
     
 }
-.cardd{
-    border:1px solid #f0f0d6;
-    padding: 32px;
-    margin:8px;
-}
 
-.image{
-  border:1px solid #f0f0d6;
-}
-.icons{
-    font-size: 20px;
-    color: var(--icon-bg-primary);
-
-}
-
-.hs-responsive-embed-youtube {
-position: relative;
-padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-padding-top: 25px;
-}
-.hs-responsive-embed-youtube iframe {
-position: absolute;
-width: 100%!important;
-height: 100%!important;
-}
 </style>
