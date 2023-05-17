@@ -12,6 +12,12 @@
             </header>
 
         <slot />
+            <div class="flex shadow-xl place-content-center bg-txtbase">
+                <footer class="max-w-sm text-center overflow-hidden font-semibold text-txtprimary">
+            <h3 class="">© 2023 Ummi Jumria, Bootcamp Juke Technology. All rights reserved</h3>
+            </footer>
+            </div>
+            
     </div>
 </template>
 
