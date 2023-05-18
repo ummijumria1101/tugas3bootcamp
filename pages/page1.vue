@@ -24,16 +24,55 @@
         </div>
         <div class="flex-col bg-txtprimary drop-shadow-xl max-w-fit max-h-50">
             <div>
-                <p class="text-justify p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores excepturi mollitia quidem adipisci, sapiente enim quis dignissimos vero necessitatibus soluta!</p>
+                <p class="text-center font-semibold text-lg">Other Page</p>
             </div>
             <div>
-                <p class="text-justify p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores excepturi mollitia quidem adipisci, sapiente enim quis dignissimos vero necessitatibus soluta!</p>
+                <NuxtLink to="page2">
+                <v-card class="flex place-content-center">
+                    <div class="shadow-lg p-4 m-2 hover:bg-hovercolor rounded-md">
+                        <div class="max-w-sm">
+                            <img src="~/assets/img/aboutus.png">
+                        </div>
+                        <div>
+                            <p class="text-base text-center">Panduan Lengkap Pembuatan Antena</p>
+                        </div>
+                        
+                    </div>            
+                </v-card>
+
+            </NuxtLink>
             </div>
             <div>
-                <p class="text-justify p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores excepturi mollitia quidem adipisci, sapiente enim quis dignissimos vero necessitatibus soluta!</p>
+                <NuxtLink to="page3">
+                <v-card class="flex place-content-center">
+                    <div class="shadow-lg p-4 m-2 hover:bg-hovercolor rounded-md">
+                        <div class="max-w-sm">
+                            <img src="~/assets/img/aboutus.png">
+                        </div>
+                        <div>
+                            <p class="text-base text-center">Menyelami Dunia Penelitian Terkait Antena</p>
+                        </div>
+                        
+                    </div>            
+                </v-card>
+
+            </NuxtLink>
             </div>
             <div>
-                <p class="text-justify p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores excepturi mollitia quidem adipisci, sapiente enim quis dignissimos vero necessitatibus soluta!</p>
+                <NuxtLink to="page3">
+                <v-card class="flex place-content-center">
+                    <div class="shadow-lg p-4 m-2 hover:bg-hovercolor rounded-md">
+                        <div class="max-w-sm">
+                            <img src="~/assets/img/aboutus.png">
+                        </div>
+                        <div>
+                            <p class="text-base text-center">Tips dan Trik untuk Meningkatkan Kinerja Antena</p>
+                        </div>
+                        
+                    </div>            
+                </v-card>
+
+            </NuxtLink>
             </div>
 
         </div>
