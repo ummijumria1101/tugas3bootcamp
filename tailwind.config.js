@@ -15,7 +15,9 @@ module.exports = {
       'txtprimary' : '#F1E1AA', //abu tua
       'txtsecondary' : '#F1E1AA', // hitam
       'txtbase' : '#1A1A1A',
-      'sidecolor' : '#e0ad75'
+      'sidecolor' : '#e0ad75',
+      'hovercolor' : '#f5eac3',
+      'buttoncolor' : '#ba8f5c',
       
 
     },

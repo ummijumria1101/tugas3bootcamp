@@ -1,37 +1,79 @@
 <template>
-    <div class="flex">
-        <div class="bg-txtprimary">      
-        <h1 class="text-center text-4xl font-semibold text-primarycolor">Tutorial membuat membuat antena mikrostrip</h1>
-        <img class="image mx-auto flex item-center" src = "https://i.postimg.cc/G28cdcB5/Suppression-of-Cross-Polarization-of-the-Microstrip-Integrated-Balun-Fed-Printed-Dipole-Antenna.jpg">
+    <div class="opacity-50 h-1/2 w-full mt-1">
+        <img src="~/assets/img/test.jpg">
+    </div>     
+    <div class="flex mt-1">
+        <div class="bg-txtprimary"> 
+
+        <h1 class="text-center text-4xl font-semibold text-primarycolor pt-10">Antena Expert <br/> Panduan Lengkap dan Informasi Terkini tentang Antena</h1>
+        <!-- <img class="image mx-auto flex item-center m-5" src = "https://i.postimg.cc/G28cdcB5/Suppression-of-Cross-Polarization-of-the-Microstrip-Integrated-Balun-Fed-Printed-Dipole-Antenna.jpg"> -->
         <div class="ml-10 mr-10 inline-block">
-            <p class="text-primarycolor text-justify p-4">Antena adalah perangkat yang biasanya terbuat dari logam (sebagai tongkat atau kawat) untuk memancarkan dan menerima gelombang radio. Antena adalah komponen utama dalam sistem WLAN. Antena bekerja dengan memancarkan gelombang elektromagnetik dalam arah radial yang terkoordinasi. Antena sangat diperlukan terutama dalam teknologi telekomunikasi saat ini. Antena terdiri dari berbagai jenis, terdapat antena horn, antena yagi uda, antena mikrostrip dan lain lain.</p>
+            <p class="text-primarycolor text-justify p-4 text-lg font-semibold">Selamat datang di website kami yang penuh dengan pengetahuan menarik seputar dunia antena! Apakah Anda penasaran tentang bagaimana antena dibuat? Atau ingin mengenal berbagai jenis antena yang ada? Di sini, Anda akan menemukan panduan yang lengkap serta jurnal terkait yang akan memperkaya pengetahuan Anda tentang teknologi antena. Bersiaplah untuk menjelajahi dunia yang menarik ini dan temukan potensi tak terbatas dari pembuatan dan penerapan antena.</p>
         </div>
+    
 
-        <h3 class="ml-10 mr-10 inline-block font-semibold text-primarycolor pl-4">Berikut adalah tutorial membuat salah satu jenis antena yaitu antena mikrostrip:</h3>
-        <ul class="ml-10 mr-10 inline-block mb-50 list-decimal text-primarycolor pb-8 pl-8">
-            <li>Tentukan jenis patch yang akan dibuat</li>
-            <li>Buat spesifikasi antena yang diinginkan</li>
-          <li>Menghitung dimensi antena</li>
-          <li>Mendesain antena di software CST</li>
-          <li>Mencoba simulasi antena di software CST</li>
-          <li>Memeriksa spesifikasi antena seperti VSWR dan return loss apakah sudah sesuai atau belum</li>
-          <li>Jika belum sesuai optimasi dimensi antena di CST</li>
-          <li>Fabrikasi antena yang spesifikasinya sudah sesuai di CST</li>
-          <li>Mengukur antena yang sudah di fabrikasi dengan Vector Network Analyzer (VNA), pastikan spesifikasi antena sudah sesuai</li>
-          <li>Antena telah jadi</li>   
-          </ul>     
+        <div class="flex">
+            <NuxtLink to="page1">
+                <v-card class="flex place-content-center">
+                    <div class="shadow-lg p-4 hover:bg-hovercolor rounded-md">
+                        <div class="max-w-sm">
+                            <img src="~/assets/img/aboutus.png">
+                        </div>
+                        <div>
+                            <p class="text-base text-center">Menjelajahi Jenis-Jenis Antena Mikrostrip</p>
+                        </div>
+                        
+                    </div>            
+                </v-card>
 
-            
+            </NuxtLink>
+            <NuxtLink to="page2">
+                <v-card class="flex place-content-center">
+                    <div class="shadow-lg p-4 m-2 hover:bg-hovercolor rounded-md">
+                        <div class="max-w-sm">
+                            <img src="~/assets/img/aboutus.png">
+                        </div>
+                        <div>
+                            <p class="text-base text-center">Panduan Lengkap Pembuatan Antena</p>
+                        </div>
+                        
+                    </div>            
+                </v-card>
+
+            </NuxtLink>
+            <NuxtLink to="page3">
+                <v-card class="flex place-content-center">
+                    <div class="shadow-lg p-4 m-2 hover:bg-hovercolor rounded-md">
+                        <div class="max-w-sm">
+                            <img src="~/assets/img/aboutus.png">
+                        </div>
+                        <div>
+                            <p class="text-base text-center">Menyelami Dunia Penelitian Terkait Antena</p>
+                        </div>
+                        
+                    </div>            
+                </v-card>
+
+            </NuxtLink>
+            <NuxtLink to="page3">
+                <v-card class="flex place-content-center">
+                    <div class="shadow-lg p-4 m-2 hover:bg-hovercolor rounded-md">
+                        <div class="max-w-sm">
+                            <img src="~/assets/img/aboutus.png">
+                        </div>
+                        <div>
+                            <p class="text-base text-center">Tips dan Trik untuk Meningkatkan Kinerja Antena</p>
+                        </div>
+                        
+                    </div>            
+                </v-card>
+
+            </NuxtLink>
         </div>
-        <div class="flex-col bg-txtprimary drop-shadow-xl max-w-fit max-h-50">
-            <div>
-                <p class="text-justify p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores excepturi mollitia quidem adipisci, sapiente enim quis dignissimos vero necessitatibus soluta!</p>
-            </div>
-            <div>
-                <p class="text-justify p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores excepturi mollitia quidem adipisci, sapiente enim quis dignissimos vero necessitatibus soluta!</p>
-            </div>
-            <div>
-                <p class="text-justify p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores excepturi mollitia quidem adipisci, sapiente enim quis dignissimos vero necessitatibus soluta!</p>
+        </div>
+        <div class="flex-col bg-txtprimary drop-shadow-xl w-1/2 max-h-50">
+            <div class="">
+                <p class="text-justify p-4 mt-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores excepturi mollitia quidem adipisci, sapiente enim quis dignissimos vero necessitatibus soluta!</p>
             </div>
             <div>
                 <p class="text-justify p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores excepturi mollitia quidem adipisci, sapiente enim quis dignissimos vero necessitatibus soluta!</p>
