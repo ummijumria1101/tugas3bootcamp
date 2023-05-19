@@ -1,4 +1,5 @@
 <template>
+    <div>
         <div>        
                 <header class="shadow-sm bg-txtprimary">
 
@@ -23,6 +24,7 @@
                 </footer>
                 </div>  
         </div>
+    </div>
 </template>
 
 

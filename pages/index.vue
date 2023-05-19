@@ -55,7 +55,7 @@
                 </v-card>
 
             </NuxtLink>
-            <NuxtLink to="page3">
+            <NuxtLink to="page4">
                 <v-card class="flex place-content-center">
                     <div class="shadow-lg p-4 m-2 hover:bg-hovercolor rounded-md">
                         <div class="max-w-sm">
@@ -70,6 +70,7 @@
 
             </NuxtLink>
         </div>
+>
         </div>
         <div class="flex-col bg-txtprimary drop-shadow-xl w-1/2 max-h-50">
             <div class="">
