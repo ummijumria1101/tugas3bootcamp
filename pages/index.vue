@@ -48,7 +48,7 @@
                             <img src="~/assets/img/aboutus.png">
                         </div>
                         <div>
-                            <p class="text-base text-center">Menyelami Dunia Penelitian Terkait Antena</p>
+                            <p class="text-base text-center">Harga dan Diskon (tugas 8 - Pengkondisian)</p>
                         </div>
                         
                     </div>            
