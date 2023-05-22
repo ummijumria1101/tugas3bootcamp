@@ -73,6 +73,20 @@
 >
         </div>
         <div class="flex-col bg-txtprimary drop-shadow-xl w-1/2 max-h-50">
+            <NuxtLink to="page3">
+                <v-card class="flex place-content-center">
+                    <div class="shadow-lg p-4 m-2 hover:bg-hovercolor rounded-md">
+                        <div class="max-w-sm">
+                            
+                        </div>
+                        <div>
+                            <p class="text-base text-center">Tugas 8 - Pengkondisian (Diskon)</p>
+                        </div>
+                        
+                    </div>            
+                </v-card>
+
+            </NuxtLink>
             <div class="">
                 <p class="text-justify p-4 mt-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores excepturi mollitia quidem adipisci, sapiente enim quis dignissimos vero necessitatibus soluta!</p>
             </div>
